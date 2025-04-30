@@ -13,11 +13,8 @@
 
 # ifndef CPP0X_TEMPLATE_HPP
 # define CPP0X_TEMPLATE_HPP
-#include <iostream>
-#include <iomanip>
-#include <string>
-#include <sstream>
 
+#include <iostream>
 
 class	Template
 {
@@ -27,4 +24,4 @@ public:
 
 };
 
-#endif //CPP0X_TEMPLATE_HPP
+#endif
