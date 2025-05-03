@@ -5,7 +5,6 @@
 Template::Template()
 {
 	std::cout << "Default constructor called" << std::endl;
-	return ;
 }
 
 // Copy constructor
