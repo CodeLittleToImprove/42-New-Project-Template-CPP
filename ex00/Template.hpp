@@ -1,27 +1,16 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   Template.hpp                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: tbui-quo <tbui-quo@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/24 16:11:09 by tbui-quo          #+#    #+#             */
-/*   Updated: 2025/04/24 16:11:10 by tbui-quo         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+#ifndef TEMPLATE_HPP
+# define TEMPLATE_HPP
 
+# include <iostream>
 
-# ifndef CPP0X_TEMPLATE_HPP
-# define CPP0X_TEMPLATE_HPP
-
-#include <iostream>
-
-class	Template
+class Template
 {
-private:
+	private:
 
-public:
-
+	public:
+		Template();
+		Template(const Template &other);
+		Template &operator=(const Template &other);
+		~Template();
 };
-
 #endif

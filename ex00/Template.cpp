@@ -1,26 +1,33 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   Template.cpp                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: tbui-quo <tbui-quo@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/24 16:11:05 by tbui-quo          #+#    #+#             */
-/*   Updated: 2025/04/24 16:11:06 by tbui-quo         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 
 #include "Template.hpp"
 
-
+// Default constructor
 Template::Template()
 {
-
+	std::cout << "Default constructor called" << std::endl;
+	return ;
 }
 
-Template::~Template()
+// Copy constructor
+Template::Template(const Template &other)
 {
-
+	std::cout << "Copy constructor called" << std::endl;
+	// this->member = other.member;
 }
+
+// Copy Assignment operator overload
+Template &Template::operator=(const Template &other)
+{
+	std::cout << "Copy assignment operator called" << std::endl;
+	// if (this != &other)
+	// 	this->member = other.member();
+	return (*this);
+}
+
+// Destructor
+Template::~Template(void)
+{
+	std::cout << "Destructor called" << std::endl;
+}
+
 
