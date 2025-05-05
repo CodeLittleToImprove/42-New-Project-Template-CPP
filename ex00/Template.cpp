@@ -9,6 +9,7 @@ Template::Template()
 
 // Copy constructor
 Template::Template(const Template &other)
+	:_atribute(other._atribute)
 {
 	std::cout << "Copy constructor called" << std::endl;
 	// this->member = other.member;
