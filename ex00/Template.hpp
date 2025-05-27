@@ -1,5 +1,4 @@
-#ifndef TEMPLATE_HPP
-# define TEMPLATE_HPP
+#pragma once
 
 # include <iostream>
 
@@ -13,4 +12,3 @@ class Template
 		Template &operator=(const Template &other);
 		~Template();
 };
-#endif
