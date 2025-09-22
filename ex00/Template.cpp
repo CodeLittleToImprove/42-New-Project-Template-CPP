@@ -8,14 +8,14 @@ Template::Template()
 }
 
 // Copy constructor
-Template::Template(const Template& other)
+Template::Template(const Template &other)
 	:_atribute(other._atribute)
 {
 	// std::cout << "Copy constructor called" << std::endl;
 }
 
 // Copy Assignment operator overload
-Template &Template::operator=(const Template& other)
+Template &Template::operator=(const Template &other)
 {
 	// std::cout << "Copy assignment operator called" << std::endl;
 	if (this != &other)
